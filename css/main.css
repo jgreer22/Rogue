@@ -1,0 +1,132 @@
+/***** BASE STYLES *****/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+#bottom{
+    margin: 0 auto;
+    clear: both;
+	height: auto;
+	border-top: 1px solid #eee;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.third-width{
+    width: 375px;
+    margin: 0;
+    padding: 0px 0px 0px 18px;
+    float: left;
+}
+#top .full-width{
+    padding: 40px 0px 30px 0px;
+}
+
+/***** HEADER *****/
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+header h1{
+    float: left;
+    padding: 38px 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header h1 span{
+    color: #77a466;
+}
+header nav {
+    float: right; 
+    padding: 46px 0;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 0 10px;
+    display: inline;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466
+}
+
+/***** TOP *****/
+#top img#greenbean-img{
+    border: 3px solid #77a466;
+}
+
+#top h2{
+    text-transform: uppercase;
+    color: #77a466;
+    font-size: 18pt;
+}
+
+#top p{
+    font-size: 16pt;
+    line-height: 20pt;
+}
+
+/***** BOTTOM *****/
+#bottom{
+    border-top: 1px solid #eeeeee;
+}
+
+#bottom #specials{
+    
+}
+
+#bottom h3{
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#bottom #specials ul{
+    font-size: 12pt;
+    color: #77a466;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 23pt;
+}
+
+#bottom #reviews{
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    line-height: 18pt;
+}
+
+#bottom #contact{
+    line-height: 18pt;
+}
+
+/***** FOOTER *****/
+#footer{
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+}
+
+#footer span{
+    font-family: 'Pinyon Script', cursive;
+    text-transform: lowercase;
+    color: #77a466;
+    font-weight: bold;
+}
